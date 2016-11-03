@@ -1,0 +1,132 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+-------------------------------------------------------
+*/
+body {
+  color: #333;
+  background-color: #fff;
+}
+
+
+.logo {
+  margin: 10px auto 10px auto;
+  text-align: center;
+
+}
+
+#logotext {
+  color: #4285f4;
+  font-size: 16px;
+  font-family: arial, sans-serif;
+  font-weight: 450;
+  padding-left: 250px;
+  margin-top: -20px;
+}
+
+#textbox {
+  margin-top: 30px;
+  width: 440px;
+  height: 30px;
+}
+
+#micro {
+  margin-left: -35px;
+  margin-bottom: -8px;
+}
+
+.buttons {
+  margin: 30px auto 20px auto;
+  text-align: center;
+}
+
+.buttons button {
+  border: none;
+  width: 125px;
+  height: 30px;
+  font-weight: bold;
+  background-color: #f2f2f2;
+  color: #757575;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  margin-left: 4px;
+}
+
+nav {
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 135px;
+  border: 1px solid black;
+}
+
+nav button {
+  background-color: #4387fd;
+  width: 90px;
+  height: 30px;
+  color: white;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+}
+
+
+
+
+nav li {
+  display: inline;
+  margin-left: 10px;
+  font-family: arial, sans-serif;
+
+}
+
+nav a {
+  text-decoration: none;
+}
